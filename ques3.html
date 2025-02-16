@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even or Odd Checker</title>
+</head>
+<body>
+    <h2>Even or Odd Checker</h2>
+    <p id="result"></p> <!-- Display result here -->
+
+    <script>
+        let n = 7; // Change this number to test different values
+        let result = (n % 2 === 0) ? "Even" : "Odd"; // Check if even or odd
+
+        // Display result in the browser
+        document.getElementById("result").innerHTML = "The number " + n + " is " + result + ".";
+
+        // Display result in the console
+        console.log("The number", n, "is", result);
+    </script>
+</body>
+</html>
+

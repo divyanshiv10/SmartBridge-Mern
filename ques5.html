@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square of a Number</title>
+</head>
+<body>
+    <h2>Square of a Number</h2>
+    <p id="result"></p>
+
+    <script>
+        function square(num) {
+            return num * num;
+        }
+
+        let inputNumber = 4;
+        let squaredValue = square(inputNumber);
+
+        document.getElementById("result").innerHTML = 
+            "The square of " + inputNumber + " is " + squaredValue;
+
+        console.log("The square of", inputNumber, "is", squaredValue);
+    </script>
+</body>
+</html>
